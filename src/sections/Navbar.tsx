@@ -1,12 +1,17 @@
-import { logo } from "../assets/icons/index.tsx";
+import { Logo } from "../assets/icons";
 import { navLinks } from "../utils";
 import { Button } from "../components";
 
 const Navbar = () => {
+  const logo = Logo as unknown as string;
+
   return (
     <nav className="flex items-center justify-between">
       {/* LOGO */}
 
+      {/* <div>
+        <Logo />
+      </div> */}
       <img src={logo} alt="logo" width={96} height={40} className="ml-2" />
 
       {/* NAVIGATION */}

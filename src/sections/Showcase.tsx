@@ -3,6 +3,10 @@ import { cardInfoShowcase1, cardInfoShowcase2, cardInfoShowcase2_1, showcase } f
 import { Card } from "../components";
 
 const Showcase: React.FC<any> = ({ num }) => {
+  // const imageUrl = typeof showcase[num].image === 'string' ? showcase[num].image : '';
+  const imageUrl = showcase[num].image as unknown as string;
+
+
   return (
     <section className="py-[40px]">
       {/* MAIN CONTENT */}
@@ -29,7 +33,7 @@ const Showcase: React.FC<any> = ({ num }) => {
         {/* </p> */}
         <div>
           <img
-            src={showcase[num].image}
+            src={imageUrl}
             alt="image"
             width={440}
             height={550}

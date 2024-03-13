@@ -1,5 +1,4 @@
 import styles from "../style"
-import { purposeInfo } from "../utils"
 import PurposeCard from '../components/PurposeCard'
 
 const Purpose = () => {

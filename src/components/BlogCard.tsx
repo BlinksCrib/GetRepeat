@@ -2,11 +2,11 @@ import React from "react";
 import styles from "../style";
 
 interface Blog {
-  image: any;
-  title: string;
-  description: string;
-  descriptionBy: string;
-  by: string;
+  image?: any;
+  title?: string;
+  description?: string;
+  descriptionBy?: string;
+  by?: string;
 }
 
 const BlogCard: React.FC<{ links: Blog[] }> = ({ links }) => {
