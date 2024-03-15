@@ -7,4 +7,8 @@ import React from "react";
 // }
 
 declare const Logo: React.FC;
-export { Logo };
+declare const LinkedIn: React.FC;
+declare const Instagram: React.FC;
+declare const X: React.FC;
+declare const Tiktok: React.FC;
+export { Logo, LinkedIn, Instagram, X, Tiktok };

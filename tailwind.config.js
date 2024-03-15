@@ -15,6 +15,8 @@ export default {
         secondary: "#ede7e2",
         black: "#181818",
         white: "#F2F2F2",
+        "custom-yellow": "#F5FF7D",
+        based: "#171717",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

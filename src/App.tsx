@@ -1,89 +1,104 @@
-import { Navbar, Hero, Showcase, Blog, ReadMore, Footer, Purpose } from './sections'
-import styles from './style'
+import {
+  Navbar,
+  Hero,
+  FavBrands,
+  DriveMore,
+  Active,
+  Works,
+  ReadMore,
+  Customs,
+  Footer,
+} from "./sections";
 
 const App = () => {
   return (
-    <div className='w-full overflow-hidden'>
+    // <div className='w-full overflow-hidden'>
 
-      {/* NAVBAR */}
-      
-      <div className='p-3 bg-primary'>
-        <div className="">
-          <Navbar />
-        </div>
-      </div>
+    //   {/* NAVBAR */}
+    //       <Navbar />
 
-      {/* HERO */}
+    //   {/* HERO */}
 
-      <div className={`${styles.flexStart} ${styles.padding} pt-24 bg-primary`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero 
-          num={0}
-          />
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart} ${styles.padding} pt-24 bg-primary`}>
+    //     <div className={`${styles.boxWidth}`}>
+    //       <Hero
+    //       num={0}
+    //       />
+    //     </div>
+    //   </div>
 
-      {/* BLOG */}
+    //   {/* BLOG */}
 
-      <div className={`${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} px-[50px] `}>
-          <Blog />
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart}`}>
+    //     <div className={`${styles.boxWidth} px-[50px] `}>
+    //       <Blog />
+    //     </div>
+    //   </div>
 
-      {/* SHOWCASE */}
+    //   {/* SHOWCASE */}
 
-      <div className={`${styles.flexStart} bg-secondary`}>
-        <div className={`${styles.boxWidth} px-[50px] `}>
-          <Showcase 
-          num={0}/>
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart} bg-secondary`}>
+    //     <div className={`${styles.boxWidth} px-[50px] `}>
+    //       <Showcase
+    //       num={0}/>
+    //     </div>
+    //   </div>
 
-      {/* SHOWCASE 2 */}
+    //   {/* SHOWCASE 2 */}
 
-      <div className={`${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} px-[50px] `}>
-          <Showcase 
-          num={1}/>
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart}`}>
+    //     <div className={`${styles.boxWidth} px-[50px] `}>
+    //       <Showcase
+    //       num={1}/>
+    //     </div>
+    //   </div>
 
-      {/* PURPOSE */}
+    //   {/* PURPOSE */}
 
-      <div className={`${styles.flexStart} bg-secondary`}>
-        <div className={`${styles.boxWidth} px-[50px] `}>
-          <Purpose />
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart} bg-secondary`}>
+    //     <div className={`${styles.boxWidth} px-[50px] `}>
+    //       <Purpose />
+    //     </div>
+    //   </div>
 
-      {/* CTA */}
+    //   {/* CTA */}
 
-      <div className={`${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} px-[50px] `}>
-          <ReadMore />
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart}`}>
+    //     <div className={`${styles.boxWidth} px-[50px] `}>
+    //       <ReadMore />
+    //     </div>
+    //   </div>
 
-      {/* CTA */}
+    //   {/* CTA */}
 
-      <div className={`${styles.flexStart} ${styles.padding} pt-10 bg-primary`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero 
-          num={1}
-          />
-        </div>
-      </div>
+    //   <div className={`${styles.flexStart} ${styles.padding} pt-10 bg-primary`}>
+    //     <div className={`${styles.boxWidth}`}>
+    //       <Hero
+    //       num={1}
+    //       />
+    //     </div>
+    //   </div>
 
-      {/* FOOTER */}
+    //   {/* FOOTER */}
 
-      <div className={`bg-black`}>
-        <div className={`p-[80px]`}>
-          <Footer />
-        </div>
-      </div>
+    //   <div className={`bg-black`}>
+    //     <div className={`p-[80px]`}>
+    //       <Footer />
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="px-4 sm:px-0">
+      <Navbar />
+      <Hero />
+      <FavBrands />
+      <DriveMore />
+      <Active />
+      <Works />
+      <ReadMore />
+      <Customs />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

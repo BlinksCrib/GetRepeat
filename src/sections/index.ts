@@ -1,17 +1,21 @@
 import Navbar from "./Navbar.jsx"
-import Hero from "./Hero.js"
-import Showcase from "./Showcase.jsx"
-import Blog from "./Blog.js"
-import ReadMore from "./ReadMore.jsx"
-import Footer from "./Footer.js"
-import Purpose from "./Purpose.jsx"
+import Hero from "./Hero.tsx"
+import FavBrands from "./FavBrands.tsx"
+import DriveMore from "./DriveMore.tsx"
+import Active from "./Active.tsx"
+import Works from "./Works.tsx"
+import ReadMore from "./ReadMore.tsx"
+import Customs from "./Customs.tsx"
+import Footer from "./Footer.tsx"
 
 export { 
     Navbar,
     Hero,
-    Showcase,
-    Blog,
+    FavBrands,
+    DriveMore,
+    Active,
+    Works,
     ReadMore,
+    Customs,
     Footer,
-    Purpose
 }

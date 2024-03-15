@@ -1,6 +1,4 @@
 import {
-  img1,
-  img2,
   p1,
   p2,
   p3,
@@ -15,7 +13,6 @@ import {
   brandRevenue,
   brandImproved,
 } from "../assets/images";
-
 
 export const navLinks = [
   {
@@ -32,18 +29,6 @@ export const navLinks = [
   },
 ];
 
-export const heroLinks = [
-  {
-    title: "supercharged lifecycle marketing",
-    paragraph:
-      "Repeat boosts repurchase rate by automatically delivering personalized messaging at high-leverage Moments™.",
-  },
-  {
-    title: "unlock you customer moments",
-    paragraph:
-      "Start activating the Moments that matter. Get started now to see how Repeat can simplify and supercharge your retention workflow.",
-  },
-];
 
 export const blogLinks = [
   {
@@ -93,37 +78,6 @@ export const readMoreLinks = [
     description:
       "These are the three types of moments you have to activate your existing customer base. Cultural, manufactured, and customer moments.",
     by: "Alex McEachern",
-  },
-];
-
-export const cardInfoBLog = [
-  {
-    id: "olipop",
-  },
-  {
-    id: "auro bora",
-  },
-  {
-    id: "hydrant",
-  },
-  {
-    id: "osea",
-  },
-];
-
-export const showcase = [
-  {
-    title: "drive more second orders with moments that matter",
-    paragraph: `Repeat monitors when customers enter key Moments—think cross-selling, replenishment, lapsing—and passes that intelligence to the email and SMS platforms you use today. The result is <b>more personalized campaigns</b>, <b>smarter flows</b>, and an <b>easier retention workflow</b>.`,
-    paragraph2:
-      "Moments make it a breeze to create the kind of hyper-personalized messaging that used to require complicated if/else logic, rigid timing, and burdensome setup.",
-    image: img1,
-  },
-  {
-    title: "activate moments with plays",
-    paragraph:
-      "<b>The key to simplifying your work without sacrificing performance</b>: ready-made Plays, like Moment-specific flows, dynamic email banners, and personalized direct mail, make it easy to leverage the Moments that Repeat surfaces. They’ll help you <b>quickly create campaigns and flows</b> that resonate with your customers, no matter what stage of the lifecycle they’re in.",
-    image: img2,
   },
 ];
 
@@ -218,32 +172,5 @@ export const purposeInfo = [
     paragraph:
       "Repeat generates events that you can use to automate flows and enriches customer profiles with data for personalization and segmentation. It all flows seamlessly into Klaviyo, Postscript, and Attentive to give you new ways to optimize your retention workflow.",
     image: p3,
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "blog",
-    link: "",
-  },
-  {
-    title: "podcast",
-    link: "",
-  },
-  {
-    title: "newsletter",
-    link: "",
-  },
-  {
-    title: "jobs",
-    link: "",
-  },
-  {
-    title: "privacy policy",
-    link: "",
-  },
-  {
-    title: "terms of service",
-    link: "",
   },
 ];
