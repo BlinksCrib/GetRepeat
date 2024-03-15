@@ -10,7 +10,7 @@ const FavBrands = () => {
     <section className="min-h-[942.94px]">
       <div className="flex flex-col gap-6 w-full max-w-[908px] mx-auto  items-center py-[80px]">
         <div className="flex justify-center items-start llg:w-[90%] flex-col">
-          <header className=" text-[24px] md:text-[43.98px] font-poppins text-based font-semibold text-center sm:text-start max-w-[25ch]">
+          <header className=" text-[24px] md:text-[43.98px] font-poppins text-based font-semibold text-center sm:text-start max-w-[25ch] mb-8">
             YOUR FAVORITE BRANDS ARE HAVING A MOMENT
           </header>
           <div className="flex flex-col items-center gap-6">

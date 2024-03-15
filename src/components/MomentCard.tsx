@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const MomentCard: React.FC<any> = ({ header, content, link }) => {
   return (
-    <div className="border bg-white border-based rounded-[25px] w-full lg:max-w-[434px] hover:bg-[#f8f9fa] transition-all cursor-pointer p-4">
+    <div className="border bg-white border-based rounded-[25px] w-full lg:max-w-[434px] hover:bg-[#f8f9fa] transition-all cursor-pointer p-5">
       <header className="flex gap-1 items-center">
         <img
           src="https://www.notion.so/icons/clock_lightgray.svg"
@@ -10,7 +10,7 @@ const MomentCard: React.FC<any> = ({ header, content, link }) => {
           loading="lazy"
           className="w-[20px]"
         />
-        <span className="font-poppins text-based font-medium text-17">
+        <span className="font-poppins text-based font-medium text-[17px]">
           {header}
         </span>
       </header>

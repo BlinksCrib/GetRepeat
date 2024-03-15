@@ -7,11 +7,11 @@ const DriveMore = () => {
   return (
     <div className="py-8 sm:my-0 -mx-4 sm:mx-0 px-4 min-h-[1203px] bg-[#EDE7E2] flex items-center">
       <div className="w-full max-w-[908px] mx-auto">
-        <header className=" text-[24px] md:text-[43.9875px] font-semibold font-poppins leading-[32px] md:leading-[57.1838px] text-based text-center sm:text-start max-w-[25ch]">
+        <header className=" text-[24px] md:text-[43.9875px] font-semibold font-poppins leading-[32px] md:leading-[57.1838px] text-based text-center sm:text-start max-w-[23ch]">
           DRIVE MORE SECOND ORDERS WITH MOMENTS THAT MATTER
         </header>
-        <div className="flex flex-col lg:flex-row gap-10 my-8">
-          <p className="text-17 font-montserrat lg:max-w-[38ch] text-based leading-[25.5px]">
+        <div className="flex flex-col lg:flex-row gap-10 my-12">
+          <p className="text-[17px] font-montserrat lg:max-w-[38ch] text-based leading-[25.5px]">
             Repeat monitors when customers enter key Moments—think
             cross-selling, replenishment, lapsing—and passes that intelligence
             to the email and SMS platforms you use today. The result is{" "}

@@ -49,7 +49,7 @@ const Navbar = () => {
         <li className="product  relative py-[14px] px-[20px]">
           <a
             href="#"
-            className="flex items-center justify-center text-based font-montserrat font-medium opacity-[0.7] hover:opacity-100 transition-all text-17"
+            className="flex items-center justify-center text-based font-montserrat font-medium opacity-[0.7] hover:opacity-100 transition-all text-[17px]"
           >
             <span>Product</span>
             <svg viewBox="0 0 24 24" fill="#171717" className=" w-[20px]">
@@ -81,7 +81,7 @@ const Navbar = () => {
         <li className="py-[14px] px-[20px]">
           <a
             href="#"
-            className="text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-17"
+            className="text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-[17px]"
           >
             Blog
           </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
         <li className="py-[14px] px-[20px]">
           <a
             href="#"
-            className="text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-17"
+            className="text-based font-montserrat font-medium opacity-[0.7]  hover:opacity-100 transition-all text-[17px]"
           >
             Stop Focusing on LTV
           </a>
@@ -104,7 +104,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4">
         <button
           className="bg-[#37352F] hover:bg-[rgb(55,53,47,0.8)] transition-all flex items-center justify-center 
-    text-white py-[6px] px-[16px]  text-[15px] md:text-17 font-montserrat rounded-full"
+    text-white py-[6px] px-[18px]  text-[15px] md:text-[17px] font-montserrat rounded-full"
         >
           GET STARTED
         </button>

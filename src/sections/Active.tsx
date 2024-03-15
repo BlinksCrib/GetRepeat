@@ -57,7 +57,7 @@ const Active = () => {
             </div>
             <a
               href="#"
-              className="moment-link self-start gap-1 inline-block font-montserrat mt-1 text-based text-17 font-semibold opacity-[0.7]"
+              className="moment-link self-start gap-1 inline-block font-montserrat mt-1 text-based text-[17px] font-semibold opacity-[0.7]"
             >
               <span className="flex items-center gap-1">
                 {" "}
@@ -65,7 +65,7 @@ const Active = () => {
               </span>
             </a>
           </div>
-          <div className="my-4 flex flex-col gap-2">
+          <div className="my-3 flex flex-col gap-2">
             <header className="font-poppins text-[21px] md:text-[29.325px] font-semibold leading-[38.12px] text-based">
               SEE HOW REPEAT CAN HELP YOU
             </header>
@@ -81,7 +81,7 @@ const Active = () => {
             </div>
             <a
               href="#"
-              className="moment-link self-start gap-1 inline-block font-montserrat mt-1 text-based text-17 font-semibold opacity-[0.7]"
+              className="moment-link self-start gap-1 inline-block font-montserrat mt-1 text-based text-[17px] font-semibold opacity-[0.7]"
             >
               <span className="flex items-center gap-1">
                 {" "}

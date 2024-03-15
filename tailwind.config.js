@@ -20,7 +20,7 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        monserrat: ["Montserrat", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
         Ubuntu: ["Ubuntu", "sans-serif"],
       },
     },

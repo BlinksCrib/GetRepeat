@@ -13,11 +13,11 @@ const Feature: React.FC<any> = ({ header, subText, content }) => {
             loading="lazy"
           />
         </span>
-        <span className="font-poppins text-17 font-medium text-based">
+        <span className="font-poppins text-[17px] font-medium text-based">
           {header}
         </span>
       </header>
-      <p className="font-poppins text-17 font-medium text-based">{subText}</p>
+      <p className="font-poppins text-[17px] font-medium text-based">{subText}</p>
       <div className="font-montserrat flex flex-col gap-2 text-[14.9px] pt-6 pb-1">
         <div className="flex gap-2 items-center">
           <span className="px-2 rounded-full bg-[#E2D8FF] text-based">

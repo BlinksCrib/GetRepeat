@@ -8,7 +8,7 @@ const FavBrandCard: React.FC<any> = ({
   brand,
 }) => {
   return (
-    <div className="cursor-pointer min-h-[474px] md:max-w-[276px] w-full border border-based rounded-[25px] overflow-hidden">
+    <div className="cursor-pointer min-h-[460px] md:max-w-[265px] w-full border border-based rounded-[25px] overflow-hidden">
       <img
         src={image}
         alt="brand-image"
@@ -16,7 +16,7 @@ const FavBrandCard: React.FC<any> = ({
         loading="lazy"
       />
       <div className="p-4 hover:bg-[#f7f5f5] transition-all">
-        <p className="text-17 font-poppins font-medium text-based">{header}</p>
+        <p className="text-[17px] font-poppins font-medium text-based">{header}</p>
         <p className=" text-left pr-2 font-montserrat text-[12.8px] text-based">
           {content}
         </p>
